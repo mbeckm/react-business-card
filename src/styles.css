@@ -1,0 +1,101 @@
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 320px;
+    background-color: #F5F5F5;
+    margin: 100px;
+    box-shadow: 0px 13px 28px -1px rgba(0,0,0,0.56);
+}
+
+.header-pic {
+    width: 320px;
+}
+
+.header-name, .header-position, .header-url, .header-buttons {
+    padding: 0px 40px;
+    text-align: center;
+}
+
+.header-name {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #2B283A;
+}
+
+.header-url {
+    font-size: 10px;
+    margin-bottom: 10px;
+    color: #4A4E74;
+}
+
+.header-position {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #F47D27;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    width: 115px;
+    height: 35px;
+    border-radius: 0.5em;
+    font-size: 14px;
+}
+
+/* you can use css to style your button with a background image, and set the borders,
+margins and the like appropriately.
+<button style="background: url(myimage.png)" ... />
+*/
+
+
+.button-email {
+    border: 1px solid #D1D5DB;
+    background: url(./images/Mail.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 15px;
+    background-color: white;
+}
+
+.button-linkedin {
+    color: white;
+    border: none;
+    background: url(./images/linkedin.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10px;
+    background-color: #297FE5;
+}
+.bio-container {
+    padding: 0px 40px;
+    margin-top: 40px;
+}
+
+.bio-heading {
+    font-size: 16px;
+    color: #2B283A;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.bio-paragraph {
+    font-size: 10px;
+    color: #4A4E74;
+}
+
+.footer-container {
+    margin-top: 40px;
+    background-color: #D5D4D8;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+}
